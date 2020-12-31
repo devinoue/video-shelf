@@ -1,0 +1,60 @@
+
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,.10);
+  color:#1a0dab;
+}
+a:visited {color:#609;} /*訪問済みのリンクの色*/
+a:active {color:#1a0dab;} /*クリック中のリンクの色*/
+img {
+  width:100vw ;
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer */
+  -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+  }
+/* @media screen and (min-width:320px) {
+  img{
+      width:100%;
+
+  }
+} */
+
+
+
+#buttons {
+
+	left:1%;
+	top:1%;
+	z-index: 3;
+	position:fixed;
+}
+
+
+
+.btn_ {
+	font-size : 36px;
+	cursor:pointer;
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer */
+	-khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+	-webkit-user-select: none; /* Chrome, Safari, and Opera */
+	-webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+	border: 1px solid #009CD0;
+	color: #009CD0;
+	background: rgba(255,255,255,0.4);
+
+}
+
+/* トップへ */
+.btn_.to_top{
+	font-size : 24px;
+}
+
+table { border-spacing : 12px;
+        border-collapse : separate ;
+         font-size: 1.6em ; }
+
+video {
+  width: 100%;
+}
